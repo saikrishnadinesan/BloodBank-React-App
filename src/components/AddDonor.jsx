@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 import axios from 'axios'
+import Nav from './Nav'
 
 const AddDonor = () => {
 
@@ -63,6 +64,7 @@ const AddDonor = () => {
 
     return (
         <div>
+            <Nav />
            
 
             <div className="container">

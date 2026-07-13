@@ -12,8 +12,12 @@ function App() {
 
   return (
     <>
-      <AddDonor />
-      <ViewDonor />
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<AddDonor />}/>
+      <Route path='/view' element={<ViewDonor />}/>
+    </Routes>
+    </BrowserRouter>
     </>
   )
 }

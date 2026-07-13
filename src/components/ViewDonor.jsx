@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-
+import Nav from './Nav'
 const ViewDonor = () => {
 
     const [data, changeData] = useState([])
@@ -23,7 +23,7 @@ const ViewDonor = () => {
 
     return (
         <div>
-
+                <Nav />
 
             <div className="container">
 
