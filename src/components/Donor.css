@@ -1,0 +1,178 @@
+/* ===========================
+   GLOBAL STYLES
+=========================== */
+
+body {
+    background: linear-gradient(135deg, #0852a6, #dceeff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===========================
+   PAGE HEADING
+=========================== */
+
+.page-heading,
+h1 {
+    color: #0d47a1;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* ===========================
+   CARDS
+=========================== */
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: #ffffff;
+    box-shadow: 0 8px 20px rgba(13, 71, 161, 0.15);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 28px rgba(13, 71, 161, 0.25);
+}
+
+.card-title {
+    color: #1565c0;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #555;
+    line-height: 1.7;
+}
+
+/* ===========================
+   FORM CONTAINER
+=========================== */
+
+.form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0, 90, 170, 0.18);
+}
+
+/* ===========================
+   LABELS
+=========================== */
+
+.form-label {
+    color: #0d47a1;
+    font-weight: 600;
+}
+
+/* ===========================
+   INPUTS
+=========================== */
+
+.form-control,
+.form-select {
+    border-radius: 10px;
+    border: 1px solid #90caf9;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #1976d2;
+    box-shadow: 0 0 8px rgba(25, 118, 210, 0.3);
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.btn-primary {
+    background: linear-gradient(135deg, #1976d2, #0d47a1);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #1565c0, #08306b);
+    transform: scale(1.03);
+}
+
+.btn-danger {
+    border-radius: 10px;
+}
+
+.btn-success {
+    border-radius: 10px;
+}
+
+/* ===========================
+   TABLES
+=========================== */
+
+.table {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.table thead {
+    background: #1565c0;
+    color: white;
+}
+
+.table tbody tr:hover {
+    background: #e3f2fd;
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar {
+    background: linear-gradient(90deg, #0d47a1, #1976d2);
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #bbdefb !important;
+}
+
+/* ===========================
+   BUTTON SPACING
+=========================== */
+
+button {
+    margin-top: 10px;
+}
+
+/* ===========================
+   CONTAINER
+=========================== */
+
+.container {
+    margin-top: 30px;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .form-container {
+        padding: 20px;
+    }
+}
